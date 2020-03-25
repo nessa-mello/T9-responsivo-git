@@ -27,14 +27,22 @@ h2 {
 .secao-sobre {
     background-color: white;
     width: 100%;
+<<<<<<< HEAD
     max-width: width 600px;
+=======
+    max-width: 600px;
+>>>>>>> c031336e142a3bdb31239fc9866fdbb6386b4a41
     margin: 0 auto;
 }
 
 .sobre-conteudo__img {
     margin-top: 80px;
     width: 100%;
+<<<<<<< HEAD
     max-width: 200px;
+=======
+    max-width: 230px;
+>>>>>>> c031336e142a3bdb31239fc9866fdbb6386b4a41
 }  
     
 .sobre-conteudo {
@@ -54,6 +62,7 @@ h2 {
     margin-left: 40px;
 }
 
+<<<<<<< HEAD
 @media screen and (max-width: 370px) {
     .sobre-conteudo__img {
         background-color: red;
@@ -61,5 +70,20 @@ h2 {
     }
 }
 
+=======
+/* Media Query */
+@media screen and (max-width: 400px) {
+    h1 {
+        font-size: 30px;
+    }
+}
+>>>>>>> c031336e142a3bdb31239fc9866fdbb6386b4a41
 
-
+/* Media Query - Breakpoints
+    350px
+    420px
+    768px
+    1024px
+    1200px
+    1920px
+*/
