@@ -26,12 +26,15 @@ h2 {
 /* SEÇÃO SOBRE */
 .secao-sobre {
     background-color: white;
-    width: 50%;
+    width: 100%;
+    max-width: width 600px;
     margin: 0 auto;
 }
 
 .sobre-conteudo__img {
     margin-top: 80px;
+    width: 100%;
+    max-width: 200px;
 }  
     
 .sobre-conteudo {
@@ -49,6 +52,13 @@ h2 {
     width: 87px;
     height: 86px;
     margin-left: 40px;
+}
+
+@media screen and (max-width: 370px) {
+    .sobre-conteudo__img {
+        background-color: red;
+        width: 130px;
+    }
 }
 
 
